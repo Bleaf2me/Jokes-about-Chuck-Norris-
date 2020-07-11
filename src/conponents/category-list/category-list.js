@@ -32,9 +32,7 @@ const CategoryList = ({ selectedCategory, setSelectedCategory }) => {
                 active={active}
                 onClick={() => {setSelectedCategory(category)} }
                 key={index}
-
-                style={active ? buttonStyleActive : buttonStyle}
-            >
+                style={active ? buttonStyleActive : buttonStyle}>
                 {category.toUpperCase()}
             </button>
         )
